@@ -138,7 +138,8 @@ ul li a {
     cursor: pointer;
 
     &:hover {
-        opacity: .6;
+        background-color: var(--city-name-font-color);
+        color: var(--link-background-color);
     }
 }
 
